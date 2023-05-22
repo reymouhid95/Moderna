@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+/* Barre de navigation */
+
+.navbar{
+    background-color: rgb(24, 71, 97) !important;
+    font-size: medium;
+}
+
+nav .moderna{
+    font-size: xX-large;
+}
+
+nav .nav-link{
+    color: white;
+}
+
+#home{
+    color: rgb(162, 204, 227);
+}
+
+.nav-link:hover{
+    color: rgb(162, 204, 227);
+    transform: 1s;
+}
+
+.icon{
+    background-color: #1783ad; 
+}
+
+.first{
+    animation: SlideUp 5s;
+}
+
+
+@keyframes SlideUp{
+    from{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(13, 39, 53);
+    animation: SlideUp 5s;
+}
+
+footer .sub{
+    background-color: rgb(162, 204, 227);
+}
+
+.border-bottom{
+    border-color: rgb(162, 204, 227) !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.title{
+    color: rgb(162, 204, 227);
+}
+
+.i2{
+    font-size: small;
+    color: rgb(162, 204, 227);
+}
+
+.i3{
+    font-size: 2rem;
+    display: inline-block;
+    background: #1e4356;
+    color: #fff;
+    /* padding: 8px 0; */
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.i3:hover{
+    color: rgb(162, 204, 227);
+    cursor: pointer;
+}
+
+.down{
+    background-color: rgb(11, 33, 45);
+}
+
+/* Footer */
+
+.lien1{
+    text-decoration: none;
+    /* color: #1E4356; */
+    background-color: rgb(162, 204, 227) !important;
+}
+
+.ion{
+    color: rgb(162, 204, 227);
+}
+
+.lien{
+    text-decoration: none;
+    color: rgb(162, 204, 227);
+}
+
+.lien:hover{
+   color: #1783ad;
+}
+
+.btn .lien{
+    text-decoration: none;
+    padding: 30px;
+    background-color: #1E4356 !important;
+}
+.btn .lien:hover{
+   background-color: #1783ad !important;
+}
+.home{
+    color: rgb(162, 204, 227);
+}
+.home:hover{
+    text-decoration: none;
+    color: #129be0;
+}
+.bouton ul li{
+    list-style-type: none;
+}
+.active{
+    background: #387EA2;
+}
+
+.hover:hover{
+    background: #387EA2;
+    color: white;
+}
+.dia a{
+    color: #387EA2;
+}
+.dia a:hover{
+    color: white;
+}
+.message{
+    color: #fff !important;
+    background-color: #68A4C4 !important;
+    padding: 30px;
+    border-radius: 0 !important;
+}

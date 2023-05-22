@@ -1,0 +1,144 @@
+.overlay{position: absolute;
+    bottom: 273px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    color: #f1f1f1;
+    transition: all ease-in-out 0.3s;
+    opacity: 0;
+    padding: 15px;
+    letter-spacing: 10px;
+}
+.overlay:hover {
+    opacity: 1;
+  }
+  .fonct{
+    font-size: 15px;
+    margin-top: -8px;
+  }
+  #team .card{
+    border: none !important;
+  }
+  .over{
+    position: absolute;
+    bottom: 335px;
+  }
+  .over1{
+    position: absolute;
+    bottom: 273px;
+  }
+  .over{
+    position: absolute;
+    bottom: 335px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    color: #f1f1f1;
+    transition: 0.5s ease;
+    opacity: 0;
+  }
+  .team{
+    margin-top: 100px;
+  }
+
+  .first{
+    animation: SlideUp 2s;
+}
+
+@keyframes SlideUp{
+    from{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+  /* css oury */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Corps */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+/* Barre de navigation */
+
+.navbar{
+    background-color: rgb(24, 71, 97) !important;
+    font-size: medium;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(162, 204, 227);
+}
+
+
+.moderna{
+    font-size: xx-large;
+}
+
+#home{
+    color: rgb(162, 204, 227);
+}
+
+/* Footer */
+footer{
+    background-color: rgb(13, 39, 53);
+    animation: SlideUp 5s;
+}
+.sub{
+    background-color: rgb(162, 204, 227);
+}
+.border-bottom{
+    border-color: rgb(162, 204, 227) !important;
+}
+ul{
+    list-style-type: none;
+}
+.title{
+    color: rgb(162, 204, 227);
+}
+.i2{
+    font-size: small;
+    color: rgb(162, 204, 227);
+}
+
+.i3{
+    font-size: 2rem;
+    display: inline-block;
+    background: #1e4356;
+    color: #fff;
+    /* padding: 8px 0; */
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.i3:hover{
+    color: rgb(162, 204, 227);
+    cursor: pointer;
+}
+
+.down{
+    background-color: rgb(11, 33, 45);
+}
